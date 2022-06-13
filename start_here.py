@@ -11,7 +11,7 @@ ap.add_argument("-a", "--activity", required=True,
 	help="activity to be scored")
 ap.add_argument("-v", "--video", required=True,
 	help="video file to be scored against")
-ap.add_argument("-l", "--lookup", default="lookup_test.pickle",
+ap.add_argument("-l", "--lookup", default="lookup.pickle",
 	help="The pickle file containing the lookup table")
 args = vars(ap.parse_args())
 
