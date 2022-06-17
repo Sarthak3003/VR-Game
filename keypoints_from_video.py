@@ -1,8 +1,5 @@
 import tensorflow as tf
 import cv2
-import time
-import math
-import numpy 
 import numpy as np
 import posenet
 from pose import Pose
