@@ -41,10 +41,3 @@ class get_Score(object):
 			cap.release()
 			final_score,score_list = self.s.compare(np.asarray(self.input_test),np.asarray(model_array),j,i)
 		return final_score,score_list
-
-
-
-	
-	
-
-
