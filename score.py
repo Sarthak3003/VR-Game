@@ -25,7 +25,3 @@ class Score(object):
 		for k in range(0,17):
 			scores.append(self.dtwdis(ip[:,k],model[:,k],i,j))	
 		return np.mean(scores),scores
-
-	
-
-
