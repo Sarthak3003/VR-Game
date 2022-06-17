@@ -1,5 +1,5 @@
 
-# USAGE : python3 start_here.py --activity "punch - side" --video "test.mp4" --lookup "lookup_test.pickle"
+# USAGE : python start_here.py --activity "punch - side" --video "synapse_Trim.mp4"
 
 import argparse
 from calculations import get_Score
